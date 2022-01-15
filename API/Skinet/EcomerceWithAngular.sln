@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skinet", "Skinet", "{960E3CFA-2C19-4377-97A2-6E1C4BD77057}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Skinet_API", "Skinet_API\Skinet_API.csproj", "{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skinet_Core", "Skinet_Core\Skinet_Core.csproj", "{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skinet_Infrastructure", "Skinet_Infrastructure\Skinet_Infrastructure.csproj", "{78531DE7-328B-44F9-859E-E6D1EA69A88A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78531DE7-328B-44F9-859E-E6D1EA69A88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78531DE7-328B-44F9-859E-E6D1EA69A88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78531DE7-328B-44F9-859E-E6D1EA69A88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78531DE7-328B-44F9-859E-E6D1EA69A88A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3E6B555-CDF4-4C82-84BB-91F2A8C73FB5} = {960E3CFA-2C19-4377-97A2-6E1C4BD77057}
+		{74FC26FE-2050-45C6-B3EA-3ADB0BD9465C} = {960E3CFA-2C19-4377-97A2-6E1C4BD77057}
+		{78531DE7-328B-44F9-859E-E6D1EA69A88A} = {960E3CFA-2C19-4377-97A2-6E1C4BD77057}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D55AF6-57AF-4991-9A8E-C49453AF4824}
+	EndGlobalSection
+EndGlobal

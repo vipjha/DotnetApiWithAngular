@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b3e6b555-cdf4-4c82-84bb-91f2a8c73fb5": {
+      "ProjectGuid": "b3e6b555-cdf4-4c82-84bb-91f2a8c73fb5",
+      "DisplayName": "Skinet_API",
+      "ColorIndex": 0
+    },
+    "78531de7-328b-44f9-859e-e6d1ea69a88a": {
+      "ProjectGuid": "78531de7-328b-44f9-859e-e6d1ea69a88a",
+      "DisplayName": "Skinet_Infrastructure",
+      "ColorIndex": 1
+    },
+    "74fc26fe-2050-45c6-b3ea-3adb0bd9465c": {
+      "ProjectGuid": "74fc26fe-2050-45c6-b3ea-3adb0bd9465c",
+      "DisplayName": "Skinet_Core",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
