@@ -30,7 +30,13 @@ namespace Skinet_API
 
             services.AddApplicationServices();
             services.AddSwaggerDocumentation();
-
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPloicy", policy =>
+                {
+                    policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +54,7 @@ namespace Skinet_API
             app.UseHttpsRedirection();
             app.UseRouting();
             app.UseStaticFiles();
+            app.UseCors("CorsPloicy");
             app.UseAuthorization();
             app.UseSwaggerDocumentation();
             app.UseEndpoints(endpoints =>

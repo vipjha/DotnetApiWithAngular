@@ -19,6 +19,19 @@ namespace Skinet_Infrastructure.Data
             {
                 query = query.Where(spec.Criteria);
             }
+            if (spec.OrderBy != null)
+            {
+                query = query.OrderBy(spec.OrderBy);
+            }
+            if (spec.OrderByDesceding != null)
+            {
+                query = query.OrderByDescending(spec.OrderByDesceding);
+            }
+            if(spec.IsPagingEnabled)
+            {
+                query =query.Skip(spec.Skip).Take(spec.Take);
+            }
+
             query = spec.Include.Aggregate(query, (current, include) => current.Include(include));
             return query;
         }

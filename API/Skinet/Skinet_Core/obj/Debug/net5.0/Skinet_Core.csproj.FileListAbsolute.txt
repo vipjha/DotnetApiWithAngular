@@ -22,3 +22,15 @@ G:\ProjectsWorks\Practices\DotnetandAngularExmples\EcomerceWithAngularAndReact\A
 G:\ProjectsWorks\Practices\DotnetandAngularExmples\EcomerceWithAngularAndReact\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.dll
 G:\ProjectsWorks\Practices\DotnetandAngularExmples\EcomerceWithAngularAndReact\API\Skinet\Skinet_Core\obj\Debug\net5.0\ref\Skinet_Core.dll
 G:\ProjectsWorks\Practices\DotnetandAngularExmples\EcomerceWithAngularAndReact\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.pdb
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\bin\Debug\net5.0\Skinet_Core.deps.json
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\bin\Debug\net5.0\Skinet_Core.dll
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\bin\Debug\net5.0\ref\Skinet_Core.dll
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\bin\Debug\net5.0\Skinet_Core.pdb
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.csproj.AssemblyReference.cache
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.AssemblyInfoInputs.cache
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.AssemblyInfo.cs
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.csproj.CoreCompileInputs.cache
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.dll
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\ref\Skinet_Core.dll
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Core\obj\Debug\net5.0\Skinet_Core.pdb
