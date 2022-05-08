@@ -1,13 +1,8 @@
 ﻿using Skinet_Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Skinet_Core.Specifications
 {
-   public  class ProductsWithTypesAndBrandsSpecification : BaseSpecification<Product>
+    public  class ProductsWithTypesAndBrandsSpecification : BaseSpecification<Product>
     {
         public ProductsWithTypesAndBrandsSpecification(ProductSpecParams productParams) 
             : base(x=>
@@ -34,7 +29,6 @@ namespace Skinet_Core.Specifications
                         AddOrderBy(x => x.Name);
                         break;
                 }
-
             }
         }
 

@@ -7,6 +7,8 @@ using Skinet_API.Extensions;
 using Skinet_API.Helper;
 using Skinet_API.Middleware;
 using Skinet_Infrastructure.Data;
+using Skinet_Infrastructure.Identity;
+using StackExchange.Redis;
 
 namespace Skinet_API
 {
@@ -25,10 +27,23 @@ namespace Skinet_API
             
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
-
-            services.AddDbContext<StoreContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-
+            
+            // Connection for db
+            services.AddDbContext<StoreContext>(x => 
+            x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))); 
+            
+            // Connection for identity 
+            services.AddDbContext<AppIdentityDbContext>(x =>
+            {
+                x.UseSqlServer(Configuration.GetConnectionString("IdentityConnection"));
+            }); 
+            services.AddSingleton<ConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions.Parse(Configuration.GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configuration);
+            });
             services.AddApplicationServices();
+            services.AddIdentityServices();
             services.AddSwaggerDocumentation();
             services.AddCors(opt =>
             {
@@ -39,7 +54,7 @@ namespace Skinet_API
             });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        //This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseMiddleware<ExceptionMiddleware>();
