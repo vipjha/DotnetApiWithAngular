@@ -186,7 +186,6 @@ E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\ne
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Microsoft.OpenApi.dll
-E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -232,3 +231,4 @@ E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\ne
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\System.IO.Pipelines.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

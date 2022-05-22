@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Skinet_API.Errors;
 using Skinet_Infrastructure.Data;
@@ -13,6 +14,14 @@ namespace Skinet_API.Controllers
         {
             _context = context;
         }
+
+        [HttpGet("testauth")]
+        [Authorize]
+        public ActionResult<string> GetSecretText()
+        {
+            return "secret key";
+        }
+
 
         [HttpGet("notfound")]
         public IActionResult GetNotFoundRequest()

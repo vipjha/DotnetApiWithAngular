@@ -43,7 +43,7 @@ namespace Skinet_API
                 return ConnectionMultiplexer.Connect(configuration);
             });
             services.AddApplicationServices();
-            services.AddIdentityServices();
+            services.AddIdentityServices(Configuration);
             services.AddSwaggerDocumentation();
             services.AddCors(opt =>
             {
@@ -70,6 +70,7 @@ namespace Skinet_API
             app.UseRouting();
             app.UseStaticFiles();
             app.UseCors("CorsPloicy");
+            app.UseAuthentication();
             app.UseAuthorization();
             app.UseSwaggerDocumentation();
             app.UseEndpoints(endpoints =>

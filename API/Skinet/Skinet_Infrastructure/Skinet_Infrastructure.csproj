@@ -22,8 +22,4 @@
     <ProjectReference Include="..\Skinet_Core\Skinet_Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>
