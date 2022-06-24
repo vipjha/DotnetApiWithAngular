@@ -38,7 +38,6 @@ E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\b
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Infrastructure.runtimeconfig.json
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Infrastructure.runtimeconfig.dev.json
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Infrastructure.dll
-E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\ref\Skinet_Infrastructure.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Infrastructure.pdb
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Core.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\bin\Debug\net5.0\Skinet_Core.pdb
@@ -52,3 +51,4 @@ E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\o
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\obj\Debug\net5.0\ref\Skinet_Infrastructure.dll
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\obj\Debug\net5.0\Skinet_Infrastructure.pdb
 E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\obj\Debug\net5.0\Skinet_Infrastructure.genruntimeconfig.cache
+E:\FinleWorkToUploadOnGit\EcomerceWithAngular\API\Skinet\Skinet_Infrastructure\obj\Debug\net5.0\refint\Skinet_Infrastructure.dll
